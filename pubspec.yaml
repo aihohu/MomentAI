@@ -20,7 +20,7 @@ dependencies:
   intl: ^0.20.2
   archive: 3.6.1
   crypto: ^3.0.7
-  flutter_secure_storage: 11.0.0
+  flutter_secure_storage: 11.2.0
   flutter_markdown_plus: 1.0.12
   path_provider: ^2.1.6
   sherpa_onnx: 1.13.5
