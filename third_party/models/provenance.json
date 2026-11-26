@@ -1,0 +1,54 @@
+{
+  "reviewDate": "2026-09-27",
+  "scope": "Model license/provenance snapshots. Unpinned upstream references are dated snapshots; this does not invent exact training or conversion revisions.",
+  "files": [
+    {
+      "file": "FunASR-MODEL-LICENSE",
+      "source": "https://github.com/modelscope/FunASR/blob/main/MODEL_LICENSE",
+      "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8",
+      "representation": "license or provenance snapshot"
+    },
+    {
+      "file": "Pyannote-CONVERSION-LICENSE",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/blob/06afbab79fab75aae44c9520733ab4c9363b15ef/LICENSE",
+      "sha256": "14d7016ad68e7394d6e6b78d96cc2ae431c905287b89674cfdf021e79e62b8ba",
+      "representation": "license or provenance snapshot"
+    },
+    {
+      "file": "Pyannote-ORIGINAL-LICENSE",
+      "source": "https://huggingface.co/pyannote/segmentation-3.0/blob/f47575fb2e9be1f0b93981209ea5cba0512b3acb/LICENSE",
+      "sha256": "63a777ad4b3c7aed4b260b084d8fb49ec781c46c70c6b599ca5d2402ef7ebe50",
+      "representation": "transcribed from pinned public license page"
+    },
+    {
+      "file": "SenseVoice-CONVERSION-LICENSE",
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2",
+      "sha256": "221c6df10b0931a5629adad671ea48fb7747e034c414b6d2bfa275bc3dd4ea17",
+      "representation": "license or provenance snapshot"
+    },
+    {
+      "file": "3D-Speaker-README.upstream",
+      "source": "https://modelscope.cn/api/v1/models/iic/speech_eres2net_base_sv_zh-cn_3dspeaker_16k/repo?Revision=master&FilePath=README.md",
+      "sha256": "913468d0b29dae47069de8258c71ca6627d096dbcfafc752a81493e2d18620d5",
+      "representation": "license or provenance snapshot"
+    },
+    {
+      "file": "3D-Speaker-metadata.json",
+      "source": "https://modelscope.cn/api/v1/models/iic/speech_eres2net_base_sv_zh-cn_3dspeaker_16k",
+      "sha256": "cc03b1b94309ea2abd94f076b184c52536c1f9bc8e44de0765fa3b5c7fac154b",
+      "representation": "selected public metadata fields"
+    },
+    {
+      "file": "Zipformer-14M-README.upstream",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23/blob/5b6e58c4dc8fd9aa029b252396ae598c0bdf04c3/README.md",
+      "sha256": "515751f07faad368f0863ae41773ff09635eba5920122d549abb8e45d5c88282",
+      "representation": "license or provenance snapshot"
+    },
+    {
+      "file": "Apache-2.0",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "representation": "license or provenance snapshot"
+    }
+  ]
+}

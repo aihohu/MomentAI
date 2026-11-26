@@ -1,0 +1,34 @@
+{
+  "version": "9.3.1",
+  "scope": "Development build bootstrap; the full Gradle distribution is acquired separately and excluded from Git. Complete upstream notices may name components absent from the wrapper JAR.",
+  "distributionUrl": "https://services.gradle.org/distributions/gradle-9.3.1-bin.zip",
+  "distributionSha256": "b266d5ff6b90eada6dc3b20cb090e3731302e553a27c5d3e4df1f0d76beaff06",
+  "generation": "Gradle 9.3.1 wrapper task from a checksum-verified distribution; committed runtime URL/checksum/timeout unchanged.",
+  "files": [
+    {
+      "path": "android/gradlew",
+      "sha256": "fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "sha256": "9ca26d733ada3a45f27b2151288f54e75c9f95b287d1f82ef942ec5cc2d4f006"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13"
+    }
+  ],
+  "notices": [
+    {
+      "path": "third_party/gradle/LICENSE",
+      "sha256": "cf234c4188d773406f640bf89be680d9288f40ff96901c70d643fcea96ad46df"
+    },
+    {
+      "path": "third_party/gradle/NOTICE",
+      "sha256": "c2de5fd9adc7ccc4e1382a0e1f38ec6e14f8ca6e28d3c20289fe80353b019aa1"
+    }
+  ],
+  "wrapperJarChecksumUrl": "https://services.gradle.org/distributions/gradle-9.3.1-wrapper.jar.sha256",
+  "wrapperJarSha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+  "textNormalization": "Generated scripts use repository LF line endings; the wrapper JAR is preserved byte for byte."
+}

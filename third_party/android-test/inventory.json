@@ -1,0 +1,20 @@
+[
+  {
+    "coordinate": "junit:junit:4.13.2",
+    "scope": "testDebugUnitTest only; not shipped in app",
+    "artifactSha256": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+    "license": {
+      "path": "third_party/android-test/junit/LICENSE-junit.txt",
+      "sha256": "9648bb2891b9813970bddb68d4be8a5e6ec8280d0180a53dfb29236b579c55bb"
+    }
+  },
+  {
+    "coordinate": "org.hamcrest:hamcrest-core:1.3",
+    "scope": "testDebugUnitTest only; not shipped in app",
+    "artifactSha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+    "license": {
+      "path": "third_party/android-test/hamcrest-core/LICENSE.txt",
+      "sha256": "1cde867cab5c8e842929da5391cef98b4017314822270e934e8e2eef3767c666"
+    }
+  }
+]

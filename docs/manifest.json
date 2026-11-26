@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "documents": [
+    {
+      "path": "README.md",
+      "audience": "all",
+      "language": "en",
+      "translation": "README.zh-CN.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "audience": "contributors",
+      "language": "en",
+      "singleLanguage": true
+    },
+    {
+      "path": "SECURITY.md",
+      "audience": "all",
+      "language": "en",
+      "singleLanguage": true
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "audience": "contributors",
+      "language": "en",
+      "singleLanguage": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "audience": "all",
+      "language": "en",
+      "singleLanguage": true
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "audience": "contributors",
+      "language": "en",
+      "singleLanguage": true
+    },
+    {
+      "path": "README.zh-CN.md",
+      "audience": "all",
+      "language": "zh-CN",
+      "translation": "README.md"
+    },
+    {
+      "path": "docs/README.md",
+      "audience": "all",
+      "language": "en",
+      "translation": "docs/README.zh-CN.md"
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "audience": "all",
+      "language": "zh-CN",
+      "translation": "docs/README.md"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "audience": "users",
+      "language": "en",
+      "translation": "docs/USAGE.zh-CN.md"
+    },
+    {
+      "path": "docs/USAGE.zh-CN.md",
+      "audience": "users",
+      "language": "zh-CN",
+      "translation": "docs/USAGE.md"
+    },
+    {
+      "path": "docs/BUILDING.md",
+      "audience": "developers",
+      "language": "en",
+      "translation": "docs/BUILDING.zh-CN.md"
+    },
+    {
+      "path": "docs/BUILDING.zh-CN.md",
+      "audience": "developers",
+      "language": "zh-CN",
+      "translation": "docs/BUILDING.md"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "audience": "developers",
+      "language": "en",
+      "translation": "docs/ARCHITECTURE.zh-CN.md"
+    },
+    {
+      "path": "docs/ARCHITECTURE.zh-CN.md",
+      "audience": "developers",
+      "language": "zh-CN",
+      "translation": "docs/ARCHITECTURE.md"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "audience": "contributors",
+      "language": "en",
+      "translation": "docs/TESTING.zh-CN.md"
+    },
+    {
+      "path": "docs/TESTING.zh-CN.md",
+      "audience": "contributors",
+      "language": "zh-CN",
+      "translation": "docs/TESTING.md"
+    },
+    {
+      "path": "docs/RELEASING.md",
+      "audience": "maintainers",
+      "language": "en",
+      "translation": "docs/RELEASING.zh-CN.md"
+    },
+    {
+      "path": "docs/RELEASING.zh-CN.md",
+      "audience": "maintainers",
+      "language": "zh-CN",
+      "translation": "docs/RELEASING.md"
+    },
+    {
+      "path": "docs/MAINTAINING.md",
+      "audience": "contributors",
+      "language": "en",
+      "translation": "docs/MAINTAINING.zh-CN.md"
+    },
+    {
+      "path": "docs/MAINTAINING.zh-CN.md",
+      "audience": "contributors",
+      "language": "zh-CN",
+      "translation": "docs/MAINTAINING.md"
+    }
+  ]
+}

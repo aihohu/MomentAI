@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="momentai_ai.xml" />
+    <exclude domain="sharedpref" path="FlutterSecureKeyStorage:momentai_ai.xml" />
+    <exclude domain="sharedpref" path="FlutterSecureStorageConfiguration:momentai_ai.xml" />
+    <exclude domain="file" path="MomentAI/Models" />
+</full-backup-content>

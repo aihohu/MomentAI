@@ -1,0 +1,48 @@
+name: momentai
+description: "Local audio, visual notes, and thoughts for iOS and Android."
+homepage: https://moment.hohu.org
+repository: https://github.com/aihohu/MomentAI
+issue_tracker: https://github.com/aihohu/MomentAI/issues
+publish_to: 'none'
+
+version: 0.1.0+12
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  archive: 3.6.1
+  crypto: ^3.0.7
+  flutter_secure_storage: 11.0.0
+  flutter_markdown_plus: 1.0.12
+  path_provider: ^2.1.6
+  sherpa_onnx: 1.13.5
+
+# Local wrappers package only the verified source-built mobile runtimes.
+dependency_overrides:
+  sherpa_onnx_android_arm64:
+    path: packages/sherpa_onnx_android_arm64
+  sherpa_onnx_ios:
+    path: packages/sherpa_onnx_ios
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/legal/notices.json
+    - assets/sherpa-onnx-streaming-zipformer-zh-14M-2023-02-23/

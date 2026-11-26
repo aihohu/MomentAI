@@ -1,0 +1,10 @@
+name: Feature request
+description: Explain a use case and a focused proposal
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What task is difficult today? Describe the desired behavior and scope.
+    validations:
+      required: true

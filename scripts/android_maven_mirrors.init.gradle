@@ -1,0 +1,39 @@
+// Opt-in only: ./gradlew --init-script ../scripts/android_maven_mirrors.init.gradle ...
+// Keep normal project repositories as fallbacks. No global Gradle settings change.
+def addMirrors = { repositories, boolean plugins ->
+    def mirrors = []
+    if (!plugins) {
+        mirrors.add(repositories.maven {
+            url = uri('https://storage.flutter-io.cn/download.flutter.io')
+            content { includeGroup('io.flutter') }
+        })
+    }
+    mirrors.add(repositories.maven { url = uri('https://repo.huaweicloud.com/repository/maven/') })
+    if (plugins) {
+        mirrors.add(repositories.maven { url = uri('https://maven.aliyun.com/repository/gradle-plugin') })
+    }
+    mirrors.add(repositories.maven { url = uri('https://maven.aliyun.com/repository/google') })
+    mirrors.add(repositories.maven { url = uri('https://maven.aliyun.com/repository/public') })
+    // Root allprojects blocks may have added Google/Maven Central before this
+    // child project's callback. Explicitly put these opt-in mirrors first.
+    mirrors.reverseEach { repository ->
+        repositories.remove(repository)
+        repositories.addFirst(repository)
+    }
+}
+
+gradle.beforeSettings { settings ->
+    addMirrors(settings.pluginManagement.repositories, true)
+    addMirrors(settings.dependencyResolutionManagement.repositories, false)
+}
+
+gradle.settingsEvaluated { settings ->
+    def allowsProjectRepositories =
+        settings.dependencyResolutionManagement.repositoriesMode.get() ==
+        org.gradle.api.initialization.resolve.RepositoriesMode.PREFER_PROJECT
+    gradle.beforeProject { project ->
+        addMirrors(project.buildscript.repositories, true)
+        // Flutter's included Gradle build disallows project repositories.
+        if (allowsProjectRepositories) addMirrors(project.repositories, false)
+    }
+}

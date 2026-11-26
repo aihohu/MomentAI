@@ -1,0 +1,102 @@
+# Miscellaneous
+*.class
+.kotlin/
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/.derived-data/
+/artifacts/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local tools, model weights, and signing material
+.venv/
+.tools/
+__pycache__/
+.ruff_cache/
+assets/sherpa-*/**
+!assets/sherpa-*/.gitkeep
+*.onnx
+*.tar.bz2
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+.env
+.env.*
+!*.example
+.agents/
+skills-lock.json
+
+# Generated localization sources
+/lib/l10n/generated/
+
+/node_modules/
+
+# Source-built runtime outputs are regenerated from native/runtime-lock.json.
+/packages/sherpa_onnx_android_arm64/android/src/main/jniLibs/
+/packages/sherpa_onnx_ios/ios/sherpa_onnx_ios/SherpaOnnxC.xcframework/
+/packages/**/.build/
+/packages/**/build/
+/packages/**/.dart_tool/
+/packages/**/.swiftpm/
+
+# Process material is private; legacy paths stay ignored as a migration safeguard.
+/.local/
+/validation/
+/local/
+
+# Public prose is reviewed through docs/manifest.json, not a blanket Markdown ban.
+
+# Signing credentials and private signing administration stay outside source.
+*.pfx
+*.p8
+*.key
+*.pem
+*.provisionprofile
+*.keychain
+*.keychain-db
+key.properties
+android-signing.properties
+ANDROID-SIGNING-BACKUP.md
+android-filing-public.json
+id_rsa
+id_ed25519

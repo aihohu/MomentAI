@@ -1,0 +1,5 @@
+MomentAI mobile runtime integration
+Copyright 2026 hohu.org.
+Based on the sherpa-onnx 1.13.5 platform package (Apache-2.0).
+Modified: upstream prebuilt runtime replaced with a reproducible no-TTS build.
+See docs/NATIVE_RUNTIME.md in the application repository.

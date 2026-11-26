@@ -1,0 +1,774 @@
+[
+  {
+    "name": "archive",
+    "version": "3.6.1",
+    "notices": [
+      {
+        "path": "third_party/dart/archive/LICENSE",
+        "sha256": "32f97d332eae7453ec4079858e6f1d74be85beeb6d3881068b47d02a379cccea"
+      },
+      {
+        "path": "third_party/dart/archive/LICENSE-other.md",
+        "sha256": "ebe5a199af245d7e3e761673fbf3db341427060407e50713861ab24bb2cb1552"
+      }
+    ]
+  },
+  {
+    "name": "args",
+    "version": "2.7.0",
+    "notices": [
+      {
+        "path": "third_party/dart/args/LICENSE",
+        "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791"
+      }
+    ]
+  },
+  {
+    "name": "async",
+    "version": "2.13.1",
+    "notices": [
+      {
+        "path": "third_party/dart/async/LICENSE",
+        "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+      }
+    ]
+  },
+  {
+    "name": "boolean_selector",
+    "version": "2.1.2",
+    "notices": [
+      {
+        "path": "third_party/dart/boolean_selector/LICENSE",
+        "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a"
+      }
+    ]
+  },
+  {
+    "name": "characters",
+    "version": "1.4.1",
+    "notices": [
+      {
+        "path": "third_party/dart/characters/LICENSE",
+        "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+      }
+    ]
+  },
+  {
+    "name": "clock",
+    "version": "1.1.2",
+    "notices": [
+      {
+        "path": "third_party/dart/clock/LICENSE",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+      }
+    ]
+  },
+  {
+    "name": "code_assets",
+    "version": "1.2.1",
+    "notices": [
+      {
+        "path": "third_party/dart/code_assets/LICENSE",
+        "sha256": "21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b"
+      }
+    ]
+  },
+  {
+    "name": "collection",
+    "version": "1.19.1",
+    "notices": [
+      {
+        "path": "third_party/dart/collection/LICENSE",
+        "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+      }
+    ]
+  },
+  {
+    "name": "crypto",
+    "version": "3.0.7",
+    "notices": [
+      {
+        "path": "third_party/dart/crypto/LICENSE",
+        "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888"
+      }
+    ]
+  },
+  {
+    "name": "cupertino_icons",
+    "version": "1.0.9",
+    "notices": [
+      {
+        "path": "third_party/dart/cupertino_icons/LICENSE",
+        "sha256": "310d6ab6483280280c9db122bded0a63c09558bc5743720f61dbcbb494db370a"
+      }
+    ]
+  },
+  {
+    "name": "fake_async",
+    "version": "1.3.3",
+    "notices": [
+      {
+        "path": "third_party/dart/fake_async/LICENSE",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+      }
+    ]
+  },
+  {
+    "name": "ffi",
+    "version": "2.2.0",
+    "notices": [
+      {
+        "path": "third_party/dart/ffi/LICENSE",
+        "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+      }
+    ]
+  },
+  {
+    "name": "ffi_leak_tracker",
+    "version": "0.1.2",
+    "notices": [
+      {
+        "path": "third_party/dart/ffi_leak_tracker/LICENSE",
+        "sha256": "332f290333e64ed007b4f59aeeebd8fd3ceaadfbfa226a6cf2a3ab1583281624"
+      }
+    ]
+  },
+  {
+    "name": "flutter",
+    "version": "sdk",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter/LICENSE",
+        "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20"
+      }
+    ]
+  },
+  {
+    "name": "flutter_lints",
+    "version": "6.0.0",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_lints/LICENSE",
+        "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+      }
+    ]
+  },
+  {
+    "name": "flutter_localizations",
+    "version": "sdk",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_localizations/LICENSE",
+        "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20"
+      }
+    ]
+  },
+  {
+    "name": "flutter_markdown_plus",
+    "version": "1.0.12",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_markdown_plus/LICENSE",
+        "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage",
+    "version": "11.0.0",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage/LICENSE",
+        "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage_darwin",
+    "version": "0.4.0",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage_darwin/LICENSE",
+        "sha256": "3754c516086c62307896512b68024837bee5d2bea42a55cfd03f7448b92b06c8"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage_linux",
+    "version": "3.0.2",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage_linux/LICENSE",
+        "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage_platform_interface",
+    "version": "2.0.3",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage_platform_interface/LICENSE",
+        "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage_web",
+    "version": "2.1.1",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage_web/LICENSE",
+        "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa"
+      }
+    ]
+  },
+  {
+    "name": "flutter_secure_storage_windows",
+    "version": "4.2.2",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_secure_storage_windows/LICENSE",
+        "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa"
+      }
+    ]
+  },
+  {
+    "name": "flutter_test",
+    "version": "sdk",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_test/LICENSE",
+        "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20"
+      }
+    ]
+  },
+  {
+    "name": "flutter_web_plugins",
+    "version": "sdk",
+    "notices": [
+      {
+        "path": "third_party/dart/flutter_web_plugins/LICENSE",
+        "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20"
+      }
+    ]
+  },
+  {
+    "name": "hooks",
+    "version": "2.0.2",
+    "notices": [
+      {
+        "path": "third_party/dart/hooks/LICENSE",
+        "sha256": "21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b"
+      }
+    ]
+  },
+  {
+    "name": "intl",
+    "version": "0.20.2",
+    "notices": [
+      {
+        "path": "third_party/dart/intl/LICENSE",
+        "sha256": "7e124af6a556f045cb3a20cafbdaa31602ac2c82cbcb3c3b15faaaf514b06028"
+      }
+    ]
+  },
+  {
+    "name": "jni",
+    "version": "1.0.3",
+    "notices": [
+      {
+        "path": "third_party/dart/jni/LICENSE",
+        "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+      }
+    ]
+  },
+  {
+    "name": "jni_flutter",
+    "version": "1.0.2",
+    "notices": [
+      {
+        "path": "third_party/dart/jni_flutter/LICENSE",
+        "sha256": "b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c"
+      }
+    ]
+  },
+  {
+    "name": "jni_util",
+    "version": "1.0.0",
+    "notices": [
+      {
+        "path": "third_party/dart/jni_util/LICENSE",
+        "sha256": "b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c"
+      }
+    ]
+  },
+  {
+    "name": "leak_tracker",
+    "version": "11.0.2",
+    "notices": [
+      {
+        "path": "third_party/dart/leak_tracker/LICENSE",
+        "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+      }
+    ]
+  },
+  {
+    "name": "leak_tracker_flutter_testing",
+    "version": "3.0.10",
+    "notices": [
+      {
+        "path": "third_party/dart/leak_tracker_flutter_testing/LICENSE",
+        "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+      }
+    ]
+  },
+  {
+    "name": "leak_tracker_testing",
+    "version": "3.0.2",
+    "notices": [
+      {
+        "path": "third_party/dart/leak_tracker_testing/LICENSE",
+        "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6"
+      }
+    ]
+  },
+  {
+    "name": "lints",
+    "version": "6.1.0",
+    "notices": [
+      {
+        "path": "third_party/dart/lints/LICENSE",
+        "sha256": "421fe78c3b5df297f8b4ab2c74f2450a274ee6d245a113091f6b9f90570af193"
+      }
+    ]
+  },
+  {
+    "name": "logging",
+    "version": "1.3.0",
+    "notices": [
+      {
+        "path": "third_party/dart/logging/LICENSE",
+        "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791"
+      }
+    ]
+  },
+  {
+    "name": "markdown",
+    "version": "7.3.1",
+    "notices": [
+      {
+        "path": "third_party/dart/markdown/LICENSE",
+        "sha256": "0aa335b5e036b9efbb35ad7a35835cd32e4eb656c08bfe040550a9f6fa84fcc7"
+      }
+    ]
+  },
+  {
+    "name": "matcher",
+    "version": "0.12.19",
+    "notices": [
+      {
+        "path": "third_party/dart/matcher/LICENSE",
+        "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+      }
+    ]
+  },
+  {
+    "name": "material_color_utilities",
+    "version": "0.13.0",
+    "notices": [
+      {
+        "path": "third_party/dart/material_color_utilities/LICENSE",
+        "sha256": "d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e"
+      }
+    ]
+  },
+  {
+    "name": "meta",
+    "version": "1.18.0",
+    "notices": [
+      {
+        "path": "third_party/dart/meta/LICENSE",
+        "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a"
+      }
+    ]
+  },
+  {
+    "name": "objective_c",
+    "version": "9.5.0",
+    "notices": [
+      {
+        "path": "third_party/dart/objective_c/LICENSE",
+        "sha256": "1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c"
+      }
+    ]
+  },
+  {
+    "name": "package_config",
+    "version": "3.0.0",
+    "notices": [
+      {
+        "path": "third_party/dart/package_config/LICENSE",
+        "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+      }
+    ]
+  },
+  {
+    "name": "path",
+    "version": "1.9.1",
+    "notices": [
+      {
+        "path": "third_party/dart/path/LICENSE",
+        "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+      }
+    ]
+  },
+  {
+    "name": "path_provider",
+    "version": "2.1.6",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider/LICENSE",
+        "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+      }
+    ]
+  },
+  {
+    "name": "path_provider_android",
+    "version": "2.3.1",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider_android/LICENSE",
+        "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+      }
+    ]
+  },
+  {
+    "name": "path_provider_foundation",
+    "version": "2.6.0",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider_foundation/LICENSE",
+        "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+      }
+    ]
+  },
+  {
+    "name": "path_provider_linux",
+    "version": "2.2.2",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider_linux/LICENSE",
+        "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+      }
+    ]
+  },
+  {
+    "name": "path_provider_platform_interface",
+    "version": "2.1.3",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider_platform_interface/LICENSE",
+        "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d"
+      }
+    ]
+  },
+  {
+    "name": "path_provider_windows",
+    "version": "2.3.0",
+    "notices": [
+      {
+        "path": "third_party/dart/path_provider_windows/LICENSE",
+        "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+      }
+    ]
+  },
+  {
+    "name": "platform",
+    "version": "3.1.6",
+    "notices": [
+      {
+        "path": "third_party/dart/platform/LICENSE",
+        "sha256": "143839f62c9b7f88143ea9f688361c27050888acde7696b34e04414bd254fafc"
+      }
+    ]
+  },
+  {
+    "name": "plugin_platform_interface",
+    "version": "2.1.8",
+    "notices": [
+      {
+        "path": "third_party/dart/plugin_platform_interface/LICENSE",
+        "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+      }
+    ]
+  },
+  {
+    "name": "pub_semver",
+    "version": "2.2.0",
+    "notices": [
+      {
+        "path": "third_party/dart/pub_semver/LICENSE",
+        "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+      }
+    ]
+  },
+  {
+    "name": "record_use",
+    "version": "0.6.0",
+    "notices": [
+      {
+        "path": "third_party/dart/record_use/LICENSE",
+        "sha256": "1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_android_arm64",
+    "version": "1.13.5+momentai.1",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_android_arm64/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "third_party/dart/sherpa_onnx_android_arm64/NOTICE",
+        "sha256": "7d32100c9457dbf3cbfcf2b6ab87efe6cd65ddda8c05ce9b90924139ff28da66"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_android_armeabi",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_android_armeabi/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_android_x86",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_android_x86/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_android_x86_64",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_android_x86_64/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_ios",
+    "version": "1.13.5+momentai.1",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_ios/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "third_party/dart/sherpa_onnx_ios/NOTICE",
+        "sha256": "7d32100c9457dbf3cbfcf2b6ab87efe6cd65ddda8c05ce9b90924139ff28da66"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_linux",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_linux/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_macos",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_macos/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_web",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_web/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "sherpa_onnx_windows",
+    "version": "1.13.5",
+    "notices": [
+      {
+        "path": "third_party/dart/sherpa_onnx_windows/LICENSE",
+        "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+      }
+    ]
+  },
+  {
+    "name": "sky_engine",
+    "version": "sdk",
+    "notices": [
+      {
+        "path": "third_party/dart/sky_engine/LICENSE",
+        "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369"
+      }
+    ]
+  },
+  {
+    "name": "source_span",
+    "version": "1.10.2",
+    "notices": [
+      {
+        "path": "third_party/dart/source_span/LICENSE",
+        "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+      }
+    ]
+  },
+  {
+    "name": "stack_trace",
+    "version": "1.12.1",
+    "notices": [
+      {
+        "path": "third_party/dart/stack_trace/LICENSE",
+        "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390"
+      }
+    ]
+  },
+  {
+    "name": "stream_channel",
+    "version": "2.1.4",
+    "notices": [
+      {
+        "path": "third_party/dart/stream_channel/LICENSE",
+        "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+      }
+    ]
+  },
+  {
+    "name": "string_scanner",
+    "version": "1.4.1",
+    "notices": [
+      {
+        "path": "third_party/dart/string_scanner/LICENSE",
+        "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16"
+      }
+    ]
+  },
+  {
+    "name": "term_glyph",
+    "version": "1.2.2",
+    "notices": [
+      {
+        "path": "third_party/dart/term_glyph/LICENSE",
+        "sha256": "ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5"
+      }
+    ]
+  },
+  {
+    "name": "test_api",
+    "version": "0.7.11",
+    "notices": [
+      {
+        "path": "third_party/dart/test_api/LICENSE",
+        "sha256": "ff1b9f0df9036c04be424b1e3ce12789bea880ad5ffc3a48e069ae2d40a087a4"
+      }
+    ]
+  },
+  {
+    "name": "typed_data",
+    "version": "1.4.0",
+    "notices": [
+      {
+        "path": "third_party/dart/typed_data/LICENSE",
+        "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+      }
+    ]
+  },
+  {
+    "name": "vector_math",
+    "version": "2.2.0",
+    "notices": [
+      {
+        "path": "third_party/dart/vector_math/LICENSE",
+        "sha256": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55"
+      }
+    ]
+  },
+  {
+    "name": "vm_service",
+    "version": "15.2.0",
+    "notices": [
+      {
+        "path": "third_party/dart/vm_service/LICENSE",
+        "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888"
+      }
+    ]
+  },
+  {
+    "name": "web",
+    "version": "1.1.1",
+    "notices": [
+      {
+        "path": "third_party/dart/web/LICENSE",
+        "sha256": "aa913ff50d7542eb8cc35b9f48a80928ac6819ba9057f85d424655e3e8dc271c"
+      }
+    ]
+  },
+  {
+    "name": "win32",
+    "version": "6.4.0",
+    "notices": [
+      {
+        "path": "third_party/dart/win32/LICENSE",
+        "sha256": "87ef8bccdd619f2345ba5b9026cf1d6cccb305e36ab83849a8a3af9293abde7e"
+      }
+    ]
+  },
+  {
+    "name": "xdg_directories",
+    "version": "1.1.0",
+    "notices": [
+      {
+        "path": "third_party/dart/xdg_directories/LICENSE",
+        "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+      }
+    ]
+  },
+  {
+    "name": "yaml",
+    "version": "3.1.3",
+    "notices": [
+      {
+        "path": "third_party/dart/yaml/LICENSE",
+        "sha256": "d47b93335401b052d79a2f5a3710e4cf7b5aed782faedf84d40fbdd6eb934ec7"
+      }
+    ]
+  }
+]

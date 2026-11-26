@@ -1,0 +1,15 @@
+{
+  "name": "momentai-development-tools",
+  "private": true,
+  "description": "Pinned documentation checks for MomentAI contributors",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint:docs": "markdownlint-cli2",
+    "format:docs": "markdownlint-cli2 --fix"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.23.3"
+  }
+}

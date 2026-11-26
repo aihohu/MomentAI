@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Relative 1/12 insets leave 5/6 of the adaptive canvas for artwork.
+     In the normal 2/3 viewport this matches iOS's 1.25x framing.
+     Fractions avoid dependence on bitmap intrinsic size or screen density. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="8.333333%">
+    <bitmap android:src="@drawable/brand_launcher" android:gravity="fill" />
+</inset>

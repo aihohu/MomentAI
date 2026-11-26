@@ -1,0 +1,219 @@
+{
+  "document": {
+    "schemaVersion": 1,
+    "algorithmVersion": 3,
+    "status": "ready",
+    "sessionId": "session_public_m2",
+    "modelId": "synthetic-public-fixture",
+    "sourceAudioSamples": 64000,
+    "sampleRate": 16000,
+    "sourceChunkFingerprint": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "createdAt": "2026-09-10T00:00:00Z",
+    "processingMs": 1,
+    "realTimeFactor": 0.001,
+    "peakRssBytes": 1,
+    "windowCount": 1,
+    "requestedSpeakerCount": null,
+    "speakerCount": 3,
+    "segments": [
+      {
+        "speakerId": "speaker_1",
+        "startSample": 0,
+        "endSample": 16000
+      },
+      {
+        "speakerId": "speaker_2",
+        "startSample": 16000,
+        "endSample": 24000
+      },
+      {
+        "speakerId": "speaker_4",
+        "startSample": 20000,
+        "endSample": 28000
+      },
+      {
+        "speakerId": "speaker_3",
+        "startSample": 32000,
+        "endSample": 40000
+      }
+    ],
+    "labelEdits": {
+      "schemaVersion": 1,
+      "revision": 2,
+      "current": {
+        "names": {
+          "speaker_1": "林[主持]"
+        },
+        "mergedInto": {
+          "speaker_3": "speaker_1"
+        }
+      },
+      "history": [
+        {
+          "names": {},
+          "mergedInto": {}
+        },
+        {
+          "names": {
+            "speaker_1": "林[主持]"
+          },
+          "mergedInto": {}
+        }
+      ]
+    }
+  },
+  "canonical": {
+    "schemaVersion": 1,
+    "format": "org.hohu.momentai.canonical-text",
+    "status": "live",
+    "defaultTextLayer": "live",
+    "modelId": "",
+    "composerVersion": 0,
+    "sourceTimelineFingerprint": "sha256:0e9c61624b4244be011311fa1c2ad1ca45854538ec3533c3a0548aca23bddf81",
+    "sourceAudioSamples": 64000,
+    "sampleRate": 16000,
+    "createdAt": "",
+    "fullText": "第一段。\n\n两人轮流。\n\n两人同时。\n\n部分归属。\n\n归属未知。",
+    "segmentCount": 5,
+    "refinedSegmentCount": 0,
+    "fallbackSegmentCount": 0,
+    "segments": [
+      {
+        "segmentId": "seg_1",
+        "startSample": 0,
+        "endSample": 12000,
+        "liveText": "第一段。",
+        "refinedText": null,
+        "text": "第一段。",
+        "textLayer": "live"
+      },
+      {
+        "segmentId": "seg_2",
+        "startSample": 12000,
+        "endSample": 20000,
+        "liveText": "两人轮流。",
+        "refinedText": null,
+        "text": "两人轮流。",
+        "textLayer": "live"
+      },
+      {
+        "segmentId": "seg_3",
+        "startSample": 20000,
+        "endSample": 28000,
+        "liveText": "两人同时。",
+        "refinedText": null,
+        "text": "两人同时。",
+        "textLayer": "live"
+      },
+      {
+        "segmentId": "seg_4",
+        "startSample": 30000,
+        "endSample": 46000,
+        "liveText": "部分归属。",
+        "refinedText": null,
+        "text": "部分归属。",
+        "textLayer": "live"
+      },
+      {
+        "segmentId": "seg_5",
+        "startSample": 48000,
+        "endSample": 64000,
+        "liveText": "归属未知。",
+        "refinedText": null,
+        "text": "归属未知。",
+        "textLayer": "live"
+      }
+    ]
+  },
+  "expected": {
+    "schemaVersion": 1,
+    "format": "org.hohu.momentai.speaker-text",
+    "speakerVersion": "sha256:f114fffaccf16a3c50dc4c74fa3d663a770c155a9aa127837df6f45e4e69f1d1",
+    "textVersion": "sha256:0fa46308ef71502c47e92c6547868fae01490e686c1b93575f24ca1564618ad4",
+    "sourceTimelineFingerprint": "sha256:0e9c61624b4244be011311fa1c2ad1ca45854538ec3533c3a0548aca23bddf81",
+    "notice": "说话人按整段音频估计，不是逐字对齐；多人、重叠或归属不确定的段落不能确定每句话由谁说。",
+    "fullText": "第一段。\n\n两人轮流。\n\n两人同时。\n\n部分归属。\n\n归属未知。",
+    "segments": [
+      {
+        "segmentId": "seg_1",
+        "startSample": 0,
+        "endSample": 12000,
+        "text": "第一段。",
+        "textLayer": "live",
+        "speakerIds": [
+          "speaker_1"
+        ],
+        "displayNames": [
+          "林[主持]"
+        ],
+        "attribution": "single",
+        "coveredSamples": 12000,
+        "label": "林[主持]"
+      },
+      {
+        "segmentId": "seg_2",
+        "startSample": 12000,
+        "endSample": 20000,
+        "text": "两人轮流。",
+        "textLayer": "live",
+        "speakerIds": [
+          "speaker_1",
+          "speaker_2"
+        ],
+        "displayNames": [
+          "林[主持]",
+          "说话人 2"
+        ],
+        "attribution": "multiple",
+        "coveredSamples": 8000,
+        "label": "多人轮流：林[主持]、说话人 2"
+      },
+      {
+        "segmentId": "seg_3",
+        "startSample": 20000,
+        "endSample": 28000,
+        "text": "两人同时。",
+        "textLayer": "live",
+        "speakerIds": [
+          "speaker_4",
+          "speaker_2"
+        ],
+        "displayNames": [
+          "说话人 4",
+          "说话人 2"
+        ],
+        "attribution": "overlap",
+        "coveredSamples": 8000,
+        "label": "多人 · 有重叠：说话人 4、说话人 2"
+      },
+      {
+        "segmentId": "seg_4",
+        "startSample": 30000,
+        "endSample": 46000,
+        "text": "部分归属。",
+        "textLayer": "live",
+        "speakerIds": [
+          "speaker_1"
+        ],
+        "displayNames": [
+          "林[主持]"
+        ],
+        "attribution": "uncertain",
+        "coveredSamples": 8000,
+        "label": "归属不确定：林[主持]"
+      },
+      {
+        "segmentId": "seg_5",
+        "startSample": 48000,
+        "endSample": 64000,
+        "text": "归属未知。",
+        "textLayer": "live",
+        "speakerIds": [],
+        "displayNames": [],
+        "attribution": "unattributed",
+        "coveredSamples": 0,
+        "label": "说话人未确定"
+      }
+    ]
+  }
+}

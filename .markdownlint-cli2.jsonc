@@ -1,0 +1,8 @@
+{
+  "globs": ["*.md", ".github/**/*.md", "docs/**/*.md"],
+  "config": {
+    "default": true,
+    // Tables and Chinese prose are clearer without an ASCII character limit.
+    "MD013": false
+  }
+}

@@ -1,0 +1,16 @@
+name: sherpa_onnx_ios
+description: MomentAI source-built no-TTS runtime integration.
+version: 1.13.5+momentai.1
+publish_to: none
+repository: https://github.com/aihohu/MomentAI
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.44.8'
+dependencies:
+  flutter:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      ios:
+        ffiPlugin: true

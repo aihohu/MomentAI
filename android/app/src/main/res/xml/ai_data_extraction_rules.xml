@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="momentai_ai.xml" />
+        <exclude domain="sharedpref" path="FlutterSecureKeyStorage:momentai_ai.xml" />
+        <exclude domain="sharedpref" path="FlutterSecureStorageConfiguration:momentai_ai.xml" />
+        <exclude domain="file" path="MomentAI/Models" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="momentai_ai.xml" />
+        <exclude domain="sharedpref" path="FlutterSecureKeyStorage:momentai_ai.xml" />
+        <exclude domain="sharedpref" path="FlutterSecureStorageConfiguration:momentai_ai.xml" />
+        <exclude domain="file" path="MomentAI/Models" />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,35 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.momentai binary
+# Preserve upstream notices byte-for-byte, including their original whitespace.
+third_party/dart/** -text -whitespace
+third_party/native/** -text -whitespace
+third_party/models/** -text -whitespace
+third_party/android-test/** -text -whitespace
+third_party/gradle/** -text -whitespace
+# Defense in depth for source archives, including accidentally force-added process files.
+.local export-ignore
+artifacts export-ignore
+local export-ignore
+validation export-ignore
+.derived-data export-ignore
+
+# Exclude signing inputs even if accidentally force-added.
+*.jks export-ignore
+*.keystore export-ignore
+*.p12 export-ignore
+*.mobileprovision export-ignore
+*.pfx export-ignore
+*.p8 export-ignore
+*.key export-ignore
+*.pem export-ignore
+*.provisionprofile export-ignore
+*.keychain export-ignore
+*.keychain-db export-ignore
+key.properties export-ignore
+android-signing.properties export-ignore
+ANDROID-SIGNING-BACKUP.md export-ignore
+android-filing-public.json export-ignore
+id_rsa export-ignore
+id_ed25519 export-ignore

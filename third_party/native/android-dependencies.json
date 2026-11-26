@@ -1,0 +1,817 @@
+{
+  "scope": "Resolved Android compile/runtime coordinate union. Includes compile-only artifacts; not all entries ship in the APK.",
+  "dependencies": [
+    {
+      "coordinate": "io.flutter:flutter_embedding_release:1.0.0-0cd610717bde95fd88343c64f81c11ba4e5c0010",
+      "source": "Gradle release lint model",
+      "licenses": [],
+      "pom": "third_party/native/maven-poms/io.flutter/flutter_embedding_release/flutter_embedding_release-1.0.0-0cd610717bde95fd88343c64f81c11ba4e5c0010.pom",
+      "pomSha256": "2c47e664fb991a0146d34296b3c161c710a072492c13885478c330bb72f217a0",
+      "review": "Flutter BSD-3-Clause and transitive engine notices preserved in the final APK assets/flutter_assets/NOTICES.Z.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.fragment:fragment:1.7.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.fragment/fragment/fragment-1.7.1.pom",
+      "pomSha256": "18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.activity:activity:1.8.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.activity/activity/activity-1.8.1.pom",
+      "pomSha256": "c0ccbb0f6bd3f3a4fe338811dd8aee19b4919f4197613ee801bf33dd6dd702d7",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.loader:loader:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.loader/loader/loader-1.0.0.pom",
+      "pomSha256": "c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-livedata-core-ktx/lifecycle-livedata-core-ktx-2.7.0.pom",
+      "pomSha256": "67502b56b0695b2c2a1c8ff2b93ebd23b6c3d0c214f1ea3b96211eca98960fc4",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-livedata/lifecycle-livedata-2.7.0.pom",
+      "pomSha256": "69885fd126b6866da760421636cb31cbf0fc5195f9962f45b9775c2d18496fc8",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-viewmodel/lifecycle-viewmodel-2.7.0.pom",
+      "pomSha256": "700f289173adcd0c6144da0c692c4e40b0a83af5a1392c544da982f4aabbd48e",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata-core:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-livedata-core/lifecycle-livedata-core-2.7.0.pom",
+      "pomSha256": "d8e8a0ccedc798db560c637df432159cb05ec3ad18f9b8f6648f59bd4580acd6",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-process:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-process/lifecycle-process-2.7.0.pom",
+      "pomSha256": "7b07a80cb709396b69b071ea1a9177846ed699b4b44bebb1f9bad8bbbf21a23d",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-common-java8:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-common-java8/lifecycle-common-java8-2.7.0.pom",
+      "pomSha256": "c29de269fca03230d0fb5ebf9c9560950b9f9bcd540ed7fcf85c08beca1afddb",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-common:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-common/lifecycle-common-2.7.0.pom",
+      "pomSha256": "8a7c2448917f84fa6793dfe8563b49c96562d6e86eed19c642ef300d5cd16bc0",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-runtime/lifecycle-runtime-2.7.0.pom",
+      "pomSha256": "fec5849eef5069ae19f0c6270d76421485f461f1025c90277b05ddd713c7e365",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.lifecycle/lifecycle-viewmodel-savedstate/lifecycle-viewmodel-savedstate-2.7.0.pom",
+      "pomSha256": "df0107a734b53080a2847bfabbf8e127958b765f6d5a0d5e028281af3964623f",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.core:core-ktx:1.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.core/core-ktx/core-ktx-1.2.0.pom",
+      "pomSha256": "29eaddba4e6a35e68a128e594ebae3b72ef7e767f1b273ef93dc2ed019ff97f6",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile"
+      ]
+    },
+    {
+      "coordinate": "androidx.viewpager:viewpager:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.viewpager/viewpager/viewpager-1.0.0.pom",
+      "pomSha256": "1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.customview:customview:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.customview/customview/customview-1.0.0.pom",
+      "pomSha256": "ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.core:core:1.13.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.core/core/core-1.13.1.pom",
+      "pomSha256": "527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-experimental:1.4.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.annotation/annotation-experimental/annotation-experimental-1.4.0.pom",
+      "pomSha256": "41d2b9d879fc9221acda8e873ec7d26b153b9b8e04770ac79491e0576baef038",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.window:window:1.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.window/window/window-1.2.0.pom",
+      "pomSha256": "280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.window:window-java:1.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.window/window-java/window-java-1.2.0.pom",
+      "pomSha256": "73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.versionedparcelable/versionedparcelable/versionedparcelable-1.1.1.pom",
+      "pomSha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.arch.core:core-runtime:2.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.arch.core/core-runtime/core-runtime-2.2.0.pom",
+      "pomSha256": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.arch.core:core-common:2.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.arch.core/core-common/core-common-2.2.0.pom",
+      "pomSha256": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.collection:collection:1.1.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.collection/collection/collection-1.1.0.pom",
+      "pomSha256": "67e9066ca4acfdc6e3cc508293c31ba0398057ff118e4f70b1e1813c9a3456d1",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.savedstate:savedstate:1.2.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.savedstate/savedstate/savedstate-1.2.1.pom",
+      "pomSha256": "0d33bc285df1e12f22780f1624a6f0b38ea2a6181b0955ec6641caf620c50cbf",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-jvm:1.8.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.annotation/annotation-jvm/annotation-jvm-1.8.1.pom",
+      "pomSha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains.kotlinx/kotlinx-coroutines-android/kotlinx-coroutines-android-1.7.1.pom",
+      "pomSha256": "80f47d014115258758d4e1c5e4c9238c9eed36d2249d1d25858a934b29aba5df",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/kotlinx-coroutines-core-jvm-1.7.1.pom",
+      "pomSha256": "85c19db10dbc448a04663cdfb478243eda0a8d6b127f108f19955b16d489b35d",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains.kotlin/kotlin-stdlib-jdk8/kotlin-stdlib-jdk8-1.8.20.pom",
+      "pomSha256": "3a462214a336e995687769531b1e37b0c81d8e10c9949cd5ea7ae1d7803a0232",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains.kotlin/kotlin-stdlib-jdk7/kotlin-stdlib-jdk7-1.8.20.pom",
+      "pomSha256": "3622d106578cddcc0a9ec20f8ce815f7f49ff542f640228d2141fcaf80616b06",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains.kotlin/kotlin-stdlib/kotlin-stdlib-2.3.20.pom",
+      "pomSha256": "c83c02d9a7e2e954730491c33c2f1dc03c27662e27b566ec2b44d2d018639b98",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "io.flutter:arm64_v8a_release:1.0.0-0cd610717bde95fd88343c64f81c11ba4e5c0010",
+      "source": "Gradle release lint model",
+      "licenses": [],
+      "pom": "third_party/native/maven-poms/io.flutter/arm64_v8a_release/arm64_v8a_release-1.0.0-0cd610717bde95fd88343c64f81c11ba4e5c0010.pom",
+      "pomSha256": "cd1f57e625045c8ce3005a2059af7d177405c9d84e8e598c940625e982451acc",
+      "review": "Flutter BSD-3-Clause and transitive engine notices preserved in the final APK assets/flutter_assets/NOTICES.Z.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jetbrains:annotations:23.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jetbrains/annotations/annotations-23.0.0.pom",
+      "pomSha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.tracing:tracing:1.2.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.tracing/tracing/tracing-1.2.0.pom",
+      "pomSha256": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "com.getkeepsafe.relinker:relinker:1.4.5",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.getkeepsafe.relinker/relinker/relinker-1.4.5.pom",
+      "pomSha256": "099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.exifinterface:exifinterface:1.4.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.exifinterface/exifinterface/exifinterface-1.4.1.pom",
+      "pomSha256": "944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "org.jspecify:jspecify:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/org.jspecify/jspecify/jspecify-1.0.0.pom",
+      "pomSha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.startup:startup-runtime:1.1.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.startup/startup-runtime/startup-runtime-1.1.1.pom",
+      "pomSha256": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "compile",
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.core:core-ktx:1.13.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.core/core-ktx/core-ktx-1.13.1.pom",
+      "pomSha256": "31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "com.google.crypto.tink:tink-android:1.23.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.google.crypto.tink/tink-android/tink-android-1.23.0.pom",
+      "pomSha256": "a2d27e7207e6a25764859b62924fc7b972f41884ce272cead9b946c15a1f410f",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.interpolator:interpolator:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.interpolator/interpolator/interpolator-1.0.0.pom",
+      "pomSha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.profileinstaller:profileinstaller:1.3.1",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.profileinstaller/profileinstaller/profileinstaller-1.3.1.pom",
+      "pomSha256": "08263eb70a814a7cb26d11d3a83825f84c29f3e4b59f9134724e0e02e2bbd768",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.concurrent:concurrent-futures:1.1.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.concurrent/concurrent-futures/concurrent-futures-1.1.0.pom",
+      "pomSha256": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.window.extensions.core:core:1.0.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.window.extensions.core/core/core-1.0.0.pom",
+      "pomSha256": "ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-jvm:1.8.2",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/androidx.annotation/annotation-jvm/annotation-jvm-1.8.2.pom",
+      "pomSha256": "7d3b2860ea36511153a9713559dab60d77f72167fadc9c1c3198c23035fbc480",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "com.google.guava:listenablefuture:1.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.google.guava/listenablefuture/listenablefuture-1.0.pom",
+      "pomSha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a",
+      "review": "Guava Apache-2.0; license inherited from guava-parent 26.0-android POM.",
+      "configurations": [
+        "package"
+      ],
+      "licenseParentPom": "third_party/native/maven-poms/com.google.guava/guava-parent/guava-parent-26.0-android.pom",
+      "licenseParentPomSha256": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04"
+    },
+    {
+      "coordinate": "com.google.code.findbugs:jsr305:3.0.2",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.google.code.findbugs/jsr305/jsr305-3.0.2.pom",
+      "pomSha256": "19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "com.google.code.gson:gson:2.13.2",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.google.code.gson/gson/gson-2.13.2.pom",
+      "pomSha256": "3aa06aa7c0f9af092961a42d09578e4324be146348a0ee6ed47857f7c2677b76",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    },
+    {
+      "coordinate": "com.google.errorprone:error_prone_annotations:2.41.0",
+      "source": "Gradle release lint model",
+      "licenses": [
+        {
+          "name": "Apache 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "pom": "third_party/native/maven-poms/com.google.errorprone/error_prone_annotations/error_prone_annotations-2.41.0.pom",
+      "pomSha256": "a151df1e2e0b48618d8b06a180748a29b3abb39b1b2396f6a1c879a727488c6e",
+      "review": "Apache-2.0 declaration retained; archive notice files inventoried separately.",
+      "configurations": [
+        "package"
+      ]
+    }
+  ]
+}
