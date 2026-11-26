@@ -23,7 +23,7 @@ dependencies:
   flutter_secure_storage: 11.0.0
   flutter_markdown_plus: 1.0.12
   path_provider: ^2.1.6
-  sherpa_onnx: 1.13.5
+  sherpa_onnx: 2.0.3
 
 # Local wrappers package only the verified source-built mobile runtimes.
 dependency_overrides:
